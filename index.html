@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizki Handoko - Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: { extend: { colors: { primary: '#14b8a6' } } }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-gray-200 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-teal-500">Rizki Handoko</a>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#home" class="hover:text-teal-500 text-gray-700">Home</a></li>
+            <li><a href="#about" class="hover:text-teal-500 text-gray-700">About</a></li>
+            <li><a href="#skills" class="hover:text-teal-500 text-gray-700">Skills</a></li>
+            <li><a href="#portfolio" class="hover:text-teal-500 text-gray-700">Portofolio</a></li>
+            <li><a href="#contact" class="hover:text-teal-500 text-gray-700">Contact</a></li>
+        </ul>
+
+        <!-- Hamburger Button Mobile -->
+        <button id="menu-toggle" class="md:hidden text-gray-700 p-1 focus:outline-none">
+            <svg class="w-8 h-8 hamburger" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-200 shadow-lg">
+        <ul class="py-4 px-6 space-y-4">
+            <li><a href="#home" class="block py-2 hover:text-teal-500 hover:bg-teal-50 rounded px-3 text-gray-700 font-medium">Home</a></li>
+            <li><a href="#about" class="block py-2 hover:text-teal-500 hover:bg-teal-50 rounded px-3 text-gray-700 font-medium">About</a></li>
+            <li><a href="#skills" class="block py-2 hover:text-teal-500 hover:bg-teal-50 rounded px-3 text-gray-700 font-medium">Skills</a></li>
+            <li><a href="#portfolio" class="block py-2 hover:text-teal-500 hover:bg-teal-50 rounded px-3 text-gray-700 font-medium">Portofolio</a></li>
+            <li><a href="#contact" class="block py-2 hover:text-teal-500 hover:bg-teal-50 rounded px-3 text-gray-700 font-medium">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-teal-500 md:text-xl lg:text-2xl">Halo Semua, Saya <span class="block font-bold text-gray-800 text-4xl mt-1 lg:text-5xl"> Mochamad Rizki Handoko</span></h1>
+                    <h2 class="font-medium text-gray-600 text-lg mb-5">Guru Informatika, Teknisi Jaringan Komputer,<br> Web Front Development & Graphic Design</h2>
+                </div>
+
+
+                <div class="w-full self-end px- lg:w-1/2">
+                    <div class=" relative mt-10 lg:mt-0 lg:right-0">
+                        <img src="img/rh.png" alt="Mochamad Rizki Handoko" class="w-21 max-full max-w-xs lg:max-w-lg mx-auto hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2  -translate-y-15 md:scale-125">
+                            <svg width="600" height="600" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path 
+                                fill="#14b8a6" d="M33.9,-42.3C44.9,-31.2,55.4,-21.4,58.7,-9.3C62,2.7,58.3,17.1,50.4,27.6C42.5,38.1,30.6,44.7,16.9,52C3.3,59.4,-12.1,67.5,-28.3,66.5C-44.4,65.4,-61.2,55.3,-68.5,40.6C-75.7,25.9,-73.4,6.7,-70.7,-13.2C-68,-33,-65,-53.4,-53.2,-64.3C-41.3,-75.2,-20.7,-76.5,-4.6,-71.1C11.5,-65.6,23,-53.3,33.9,-42.3Z" transform="translate(100 100) scale(1.2)"
+                                />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32 bg-white">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-teal-500 text-lg mb-3">Tentang Saya</h4>
+                    <p class="font-small text-base text-gray-600 max-w-xl lg:text-lg">Saya merupakan seorang praktisi di bidang teknologi dengan keahlian dalam jaringan komputer dan pemrograman dasar menggunakan HTML, CSS, serta JavaScript. Selain itu, saya juga memiliki kemampuan dalam desain grafis menggunakan Adobe Photoshop dan Adobe Illustrator untuk menghasilkan visual yang menarik dan komunikatif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 text-center mb-16">Skills</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl text-center hover:scale-105 transition shadow-lg border border-gray-200">
+                    <i class="fab fa-html5 text-4xl text-orange-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800">HTML/CSS</h3>
+                    <p class="text-gray-600">Expert responsive & animations</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl text-center hover:scale-105 transition shadow-lg border border-gray-200">
+                    <i class="fab fa-js-square text-4xl text-yellow-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800">JavaScript</h3>
+                    <p class="text-gray-600">Dynamic interactions & validation</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl text-center hover:scale-105 transition shadow-lg border border-gray-200">
+                    <img src="img/photoshop.png" alt="Photoshop" class="w-16 h-16 mx-auto mb-4 text-teal-500">
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800">Photoshop</h3>
+                    <p class="text-gray-600">Professional graphic design</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl text-center hover:scale-105 transition shadow-lg border border-gray-200">
+                    <img src="img/illustrator.png" alt="Illustrator" class="w-12 h-12 mx-auto mb-4 text-teal-500">
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800">Adobe Illustrator</h3>
+                    <p class="text-gray-600">Vector graphics & logos</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl text-center hover:scale-105 transition shadow-lg border border-gray-200">
+                    <i class="fas fa-network-wired text-4xl text-teal-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800">Mikrotik</h3>
+                    <p class="text-gray-600">Network configuration & routing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portofolio -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 text-center mb-16">Portofolio</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-xl overflow-hidden hover:scale-105 transition shadow-xl border border-gray-200">
+                    <img src="img/Website-Kartini-1.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800">SMA Kartini 1 Website</h3>
+                        <p class="text-gray-600">Website sekolah dengan dashboard & animations.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl overflow-hidden hover:scale-105 transition shadow-xl border border-gray-200">
+                    <img src="img/Brochure-3.webp" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800">Brochure Design</h3>
+                        <p class="text-gray-600">Desain brosur informatif dengan layout menarik, visual kreatif, dan mudah dipahami.</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl overflow-hidden hover:scale-105 transition shadow-xl border border-gray-200">
+                    <img src="img/Poster-1.webp" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800">Poster Design</h3>
+                        <p class="text-gray-600">Poster promosi dengan komposisi warna yang kuat dan pesan visual yang jelas serta menarik.</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl overflow-hidden hover:scale-105 transition shadow-xl border border-gray-200">
+                    <img src="img/Sosial-Media-2.webp" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800">Sosial Media Design</h3>
+                        <p class="text-gray-600">Konten media sosial yang interaktif, eye-catching, dan dirancang untuk meningkatkan engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32 bg-white">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-teal-500 mb-2 md:text-2xl">Contact</h4>
+                </div>
+                <div class="max-w-md mx-auto space-y-6">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/hndk.9?igsh=NnlyOHpmOTM5aXJw" target="_blank" class="flex items-center justify-center p-6 bg-teal-500/10 hover:bg-teal-500/20 rounded-xl transition-all duration-300 shadow-lg border-2 border-teal-100 hover:border-teal-300 hover:scale-105">
+                        <i class="fab fa-instagram text-4xl text-teal-500 mr-4"></i>
+                        <div>
+                            <h3 class="font-bold text-xl text-gray-800">Instagram</h3>
+                            <p class="text-gray-600">@hndk.9</p>
+                        </div>
+                    </a>
+                    
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/628xxxxxxxxxx?text=Halo%20Mochamad%20Rizki%20Handoko,%20saya%20tertarik%20dengan%20portofolio%20Anda!" target="_blank" class="flex items-center justify-center p-6 bg-green-500/10 hover:bg-green-500/20 rounded-xl transition-all duration-300 shadow-lg border-2 border-green-100 hover:border-green-300 hover:scale-105">
+                        <i class="fab fa-whatsapp text-4xl text-green-500 mr-4"></i>
+                        <div>
+                            <h3 class="font-bold text-xl text-gray-800">WhatsApp</h3>
+                            <p class="text-gray-600">Chat langsung</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-center py-8 mt-20 border-t border-teal-500/30">
+        <div class="container mx-auto px-6">
+            <p class="text-gray-400 text-sm md:text-base">
+                © 2026 <span class="font-bold text-teal-400">Rizki Handoko</span>. 
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JS untuk smooth scroll & typing effect -->
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+
+        // Typing effect
+        const text = "Nama Anda";
+        let i = 0;
+        function typeWriter() {
+            if (i < text.length) {
+                document.getElementById("typed-text").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, 150);
+            }
+        }
+        window.onload = typeWriter;
+
+
+        function toggleDark() { document.documentElement.classList.toggle('dark'); }
+
+        // Hamburger Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const hamburger = document.querySelector('.hamburger');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll (sudah ada sebelumnya)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
+    <style>
+        .hamburger.active path:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger.active path:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active path:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -6px);
+        }
+    </style>
+
+</body>
+</html>
